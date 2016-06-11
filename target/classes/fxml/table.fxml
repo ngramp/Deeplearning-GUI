@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<fx:root xmlns:fx="http://javafx.com/fxml/1" type="javafx.scene.control.TableView" xmlns="http://javafx.com/javafx/8">
+    <columns>
+        <TableColumn fx:id="idCol" prefWidth="92.0" text="Object ID"/>
+        <TableColumn fx:id="raCol" prefWidth="92.0" text="Right Asc."/>
+        <TableColumn fx:id="decCol" prefWidth="108.0" text="Declination"/>
+        <TableColumn fx:id="sizeCol" prefWidth="108.0" text="Size"/>
+    </columns>
+</fx:root>

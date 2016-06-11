@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="model.sas.Datasweepindex" table="datasweepindex" schema="public" catalog="postgres">
+        <composite-id mapped="true" class="model.sas.DatasweepindexPK">
+            <key-property name="run">
+                <column name="run" sql-type="integer"/>
+            </key-property>
+            <key-property name="rerun">
+                <column name="rerun" sql-type="text"/>
+            </key-property>
+            <key-property name="camcol">
+                <column name="camcol" sql-type="integer"/>
+            </key-property>
+            <key-property name="field">
+                <column name="field" sql-type="integer"/>
+            </key-property>
+        </composite-id>
+        <property name="ra">
+            <column name="ra" sql-type="double precision" precision="-1" not-null="true"/>
+        </property>
+        <property name="dec">
+            <column name="dec" sql-type="double precision" precision="-1" not-null="true"/>
+        </property>
+        <property name="istart">
+            <column name="istart" sql-type="integer" not-null="true"/>
+        </property>
+        <property name="iend">
+            <column name="iend" sql-type="integer" not-null="true"/>
+        </property>
+        <property name="nprimary">
+            <column name="nprimary" sql-type="integer" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<javafx.scene.control.ScrollPane fx:id="imageFetcher" fitToHeight="true" fitToWidth="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.imagefetcher.ImageFetcherController">
+    <content>
+        <AnchorPane>
+            <children>
+                <BorderPane minHeight="400.0" minWidth="400.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <right>
+                        <VBox prefWidth="250.0" BorderPane.alignment="CENTER">
+                            <children>
+                                <Label alignment="CENTER" text="DR7 Image Fetch settings">
+                                    <padding>
+                                        <Insets bottom="10.0" left="10.0" top="10.0" />
+                                    </padding>
+                                </Label>
+                                <TitledPane animated="false" text="Image Source">
+                                    <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                            <children>
+                                                <RadioButton fx:id="radioIMG" layoutX="14.0" layoutY="6.0" mnemonicParsing="false" selected="true" text="Use Img Cutout Service">
+                                                    <toggleGroup>
+                                                        <ToggleGroup fx:id="sourceToggle" />
+                                                    </toggleGroup>
+                                                </RadioButton>
+                                                <ChoiceBox fx:id="selectIMG" layoutX="36.0" layoutY="24.0" prefWidth="150.0" />
+                                                <RadioButton fx:id="radioFITS" layoutX="14.0" layoutY="49.0" mnemonicParsing="false" text="Use FITS Data" toggleGroup="$sourceToggle" />
+                                                <Button fx:id="openFITS" disable="true" layoutX="186.0" layoutY="67.0" mnemonicParsing="false" text="..." />
+                                                <ComboBox fx:id="selectFITS" disable="true" editable="true" layoutX="36.0" layoutY="67.0" prefWidth="150.0" />
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </TitledPane>
+                                <TitledPane animated="false" text="Image Configuration">
+                                    <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                            <children>
+                                                <Label layoutX="14.0" layoutY="14.0" text="Dimensions" />
+                                                <Label layoutX="14.0" layoutY="41.0" text="H:" />
+                                                <TextField fx:id="imgHeightText" layoutX="32.0" layoutY="36.0" prefHeight="20.0" prefWidth="40.0" />
+                                                <Label layoutX="73.0" layoutY="41.0" text=" X W:" />
+                                                <TextField fx:id="imgWidthText" layoutX="108.0" layoutY="36.0" prefHeight="20.0" prefWidth="40.0" />
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </TitledPane>
+                                <TitledPane animated="false" text="Saving">
+                                    <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                            <children>
+                                                <Label layoutX="17.0" layoutY="14.0" text="Save Location" />
+                                                <TextField fx:id="savePath" editable="false" layoutX="17.0" layoutY="29.0" prefWidth="150.0" />
+                                                <Button fx:id="openSaveLoc" layoutX="167.0" layoutY="29.0" mnemonicParsing="false" text="..." />
+                                                <CheckBox fx:id="testCheck" layoutX="17.0" layoutY="61.0" mnemonicParsing="false" text="Test (no save)" />
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </TitledPane>
+                            </children>
+                        </VBox>
+                    </right>
+                    <center>
+                        <ScrollPane fitToHeight="true" fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefViewportWidth="400.0" BorderPane.alignment="BOTTOM_LEFT">
+                            <content>
+                                <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+                                    <children>
+                                        <ImageView fx:id="imageP" fitHeight="400.0" fitWidth="400.0" layoutX="23.0" layoutY="20.0" preserveRatio="true" AnchorPane.leftAnchor="23.0" AnchorPane.topAnchor="20.0">
+                                            <viewport>
+                                                <Rectangle2D />
+                                            </viewport>
+                                        </ImageView>
+                                        <HBox alignment="BOTTOM_CENTER" fillHeight="false" layoutX="39.0" layoutY="425.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="39.0">
+                                            <children>
+                                                <Label text="Right Asc.:" />
+                                                <Label fx:id="raLab" text="not set">
+                                                    <HBox.margin>
+                                                        <Insets left="5.0" />
+                                                    </HBox.margin>
+                                                </Label>
+                                                <Label layoutX="10.0" layoutY="10.0" text="Declination">
+                                                    <padding>
+                                                        <Insets left="20.0" />
+                                                    </padding>
+                                                </Label>
+                                                <Label fx:id="declLab" text="not set">
+                                                    <HBox.margin>
+                                                        <Insets left="5.0" />
+                                                    </HBox.margin>
+                                                </Label>
+                                                <Label layoutX="197.0" layoutY="10.0" text="Size:">
+                                                    <padding>
+                                                        <Insets left="20.0" />
+                                                    </padding>
+                                                </Label>
+                                                <Label fx:id="sizeLab" text="not set">
+                                                    <HBox.margin>
+                                                        <Insets left="5.0" />
+                                                    </HBox.margin>
+                                                </Label>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                            <BorderPane.margin>
+                                <Insets />
+                            </BorderPane.margin>
+                        </ScrollPane>
+                    </center>
+                    <bottom>
+                        <ToolBar>
+                            <items>
+                                <ProgressBar fx:id="progress" prefWidth="200.0" progress="0.0" visible="false" />
+                                <Label fx:id="info" BorderPane.alignment="TOP_LEFT" />
+                                <Pane HBox.hgrow="ALWAYS" />
+                                <Button fx:id="stopBut" mnemonicParsing="false" text="Stop" />
+                                <Button fx:id="resetBut" mnemonicParsing="false" text="Reset" />
+                                <Button fx:id="startBut" mnemonicParsing="false" text="Start" />
+                            </items>
+                            <BorderPane.margin>
+                                <Insets />
+                            </BorderPane.margin>
+                        </ToolBar>
+                    </bottom>
+                </BorderPane>
+            </children>
+        </AnchorPane>
+    </content>
+</javafx.scene.control.ScrollPane>

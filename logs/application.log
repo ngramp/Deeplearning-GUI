@@ -1,0 +1,346 @@
+2016-06-11 18:27:39,518 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.6897479248046875
+
+2016-06-11 18:27:39,657 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 10 is 0.6896061706542969
+
+2016-06-11 18:27:39,773 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 20 is 0.6741041564941406
+
+2016-06-11 18:27:39,860 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 30 is 0.6748731231689453
+
+2016-06-11 18:27:39,931 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 40 is 0.6569671630859375
+
+2016-06-11 18:27:40,048 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 50 is 0.6543775939941406
+
+2016-06-11 18:27:40,099 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 60 is 0.6257759094238281
+
+2016-06-11 18:27:40,152 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 70 is 0.6173097991943359
+
+2016-06-11 18:27:40,210 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 80 is 0.572799072265625
+
+2016-06-11 18:27:40,266 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 90 is 0.5599576187133789
+
+2016-06-11 18:27:40,348 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.5037548065185546
+
+2016-06-11 18:27:40,418 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 110 is 0.4855424118041992
+
+2016-06-11 18:27:40,462 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 120 is 0.4234809112548828
+
+2016-06-11 18:27:40,502 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 130 is 0.4019730377197266
+
+2016-06-11 18:27:40,527 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 140 is 0.3436734390258789
+
+2016-06-11 18:27:40,587 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 150 is 0.3205173110961914
+
+2016-06-11 18:27:40,651 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 160 is 0.27354318618774415
+
+2016-06-11 18:27:40,683 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 170 is 0.2510487365722656
+
+2016-06-11 18:27:40,737 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 180 is 0.21737730026245117
+
+2016-06-11 18:27:40,775 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 190 is 0.19682601928710938
+
+2016-06-11 18:27:40,836 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.17521705627441406
+
+2016-06-11 18:27:40,852 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 210 is 0.1561814785003662
+
+2016-06-11 18:27:40,899 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 220 is 0.1442708396911621
+
+2016-06-11 18:27:40,953 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 230 is 0.12620534896850585
+
+2016-06-11 18:27:40,983 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 240 is 0.12089762687683106
+
+2016-06-11 18:27:41,040 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 250 is 0.1041652488708496
+
+2016-06-11 18:27:41,107 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 260 is 0.10325363159179687
+
+2016-06-11 18:27:41,124 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 270 is 0.08764802932739257
+
+2016-06-11 18:27:41,218 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 280 is 0.08982742309570313
+
+2016-06-11 18:27:41,270 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 290 is 0.07505801200866699
+
+2016-06-11 18:27:41,323 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.0792332124710083
+
+2016-06-11 18:27:41,378 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 310 is 0.0652631950378418
+
+2016-06-11 18:27:41,406 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 320 is 0.07077381134033203
+
+2016-06-11 18:27:41,421 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 330 is 0.05749330520629883
+
+2016-06-11 18:27:41,444 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 340 is 0.06386966705322265
+
+2016-06-11 18:27:41,491 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 350 is 0.05122897624969482
+
+2016-06-11 18:27:41,503 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 360 is 0.05815840721130371
+
+2016-06-11 18:27:41,523 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 370 is 0.046099557876586914
+
+2016-06-11 18:27:41,549 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 380 is 0.05335819244384766
+
+2016-06-11 18:27:41,594 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 390 is 0.04184261322021485
+
+2016-06-11 18:27:41,613 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.049266510009765625
+
+2016-06-11 18:27:41,637 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 410 is 0.038266654014587405
+
+2016-06-11 18:27:41,661 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 420 is 0.045776166915893556
+
+2016-06-11 18:27:41,691 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 430 is 0.035232508182525636
+
+2016-06-11 18:27:41,709 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 440 is 0.042748003005981444
+
+2016-06-11 18:27:41,801 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 450 is 0.032631850242614745
+
+2016-06-11 18:27:41,829 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 460 is 0.040104303359985355
+
+2016-06-11 18:27:41,840 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 470 is 0.030380072593688964
+
+2016-06-11 18:27:41,851 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 480 is 0.037769172191619876
+
+2016-06-11 18:27:41,862 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 490 is 0.028415002822875977
+
+2016-06-11 18:27:41,908 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.0356936502456665
+
+2016-06-11 18:27:41,923 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 510 is 0.026687355041503907
+
+2016-06-11 18:27:42,004 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 520 is 0.033836960792541504
+
+2016-06-11 18:27:42,016 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 530 is 0.025159058570861818
+
+2016-06-11 18:27:42,029 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 540 is 0.032168562412261965
+
+2016-06-11 18:27:42,039 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 550 is 0.023798370361328126
+
+2016-06-11 18:27:42,064 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 560 is 0.030654540061950685
+
+2016-06-11 18:27:42,094 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 570 is 0.022579078674316407
+
+2016-06-11 18:27:42,107 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 580 is 0.02927698373794556
+
+2016-06-11 18:27:42,149 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 590 is 0.021481776237487794
+
+2016-06-12 14:32:36,738 - [ERROR] - from util.JavaFXUtils in JavaFX Application Thread
+                
+Failed to load fxml in :file:/home/gram/IdeaProjects/Deeplearning%20GUI/target/classes/fxml/ImageFetcher.fxml due to java.lang.NullPointerException
+
+2016-06-12 14:33:35,696 - [ERROR] - from util.JavaFXUtils in JavaFX Application Thread
+                
+Failed to load fxml in :file:/home/gram/IdeaProjects/Deeplearning%20GUI/target/classes/fxml/ImageFetcher.fxml due to java.lang.NullPointerException
+
+2016-06-12 14:39:55,946 - [ERROR] - from util.JavaFXUtils in JavaFX Application Thread
+                
+Failed to load fxml in :file:/home/gram/IdeaProjects/Deeplearning%20GUI/target/classes/fxml/ImageFetcher.fxml due to java.lang.NullPointerException
+
+2016-06-12 14:41:44,513 - [ERROR] - from util.JavaFXUtils in JavaFX Application Thread
+                
+Failed to load fxml in :file:/home/gram/IdeaProjects/Deeplearning%20GUI/target/classes/fxml/ImageFetcher.fxml due to java.lang.NullPointerException
+
+2016-06-12 14:43:24,732 - [ERROR] - from util.JavaFXUtils in JavaFX Application Thread
+                
+Failed to load fxml in :file:/home/gram/IdeaProjects/Deeplearning%20GUI/target/classes/fxml/ImageFetcher.fxml due to java.lang.NullPointerException
+
+2016-06-12 14:44:35,054 - [ERROR] - from util.JavaFXUtils in JavaFX Application Thread
+                
+Failed to load fxml in :file:/home/gram/IdeaProjects/Deeplearning%20GUI/target/classes/fxml/ImageFetcher.fxml due to java.lang.NullPointerException
+
+2016-06-12 14:59:37,467 - [ERROR] - from util.JavaFXUtils in JavaFX Application Thread
+                
+Failed to load fxml in :file:/home/gram/IdeaProjects/Deeplearning%20GUI/target/classes/fxml/ImageFetcher.fxml due to java.lang.NullPointerException
+
+2016-06-12 15:01:42,576 - [ERROR] - from util.JavaFXUtils in JavaFX Application Thread
+                
+Failed to load fxml in :file:/home/gram/IdeaProjects/Deeplearning%20GUI/target/classes/fxml/ImageFetcher.fxml due to java.lang.NullPointerException
+
+2016-06-12 15:06:52,890 - [ERROR] - from util.JavaFXUtils in JavaFX Application Thread
+                
+Failed to load fxml in :file:/home/gram/IdeaProjects/Deeplearning%20GUI/target/classes/fxml/ImageFetcher.fxml due to java.lang.NullPointerException
+
+2016-06-12 15:17:54,890 - [ERROR] - from util.JavaFXUtils in JavaFX Application Thread
+                
+Failed to load fxml in :file:/home/gram/IdeaProjects/Deeplearning%20GUI/target/classes/fxml/ImageFetcher.fxml due to java.lang.NullPointerException
+
+2016-06-12 15:18:29,194 - [ERROR] - from util.JavaFXUtils in JavaFX Application Thread
+                
+Failed to load fxml in :file:/home/gram/IdeaProjects/Deeplearning%20GUI/target/classes/fxml/ImageFetcher.fxml due to java.lang.NullPointerException
+
+2016-06-12 15:24:20,717 - [ERROR] - from util.JavaFXUtils in JavaFX Application Thread
+                
+Failed to load fxml in :file:/home/gram/IdeaProjects/Deeplearning%20GUI/target/classes/fxml/ImageFetcher.fxml due to null
+
+2016-06-12 16:47:07,808 - [ERROR] - from client.custom.sidebaritem.SidebarItem in JavaFX Application Thread
+                
+Failed to load contentFXML in :null due to java.lang.NullPointerException
+
+2016-06-12 16:47:07,818 - [ERROR] - from client.custom.sidebaritem.SidebarItem in JavaFX Application Thread
+                
+Failed to load contentFXML in :null due to java.lang.NullPointerException
+
+2016-06-12 16:47:07,826 - [ERROR] - from client.custom.sidebaritem.SidebarItem in JavaFX Application Thread
+                
+Failed to load contentFXML in :null due to java.lang.NullPointerException
+
+2016-06-12 16:47:07,836 - [ERROR] - from client.custom.sidebaritem.SidebarItem in JavaFX Application Thread
+                
+Failed to load contentFXML in :null due to java.lang.NullPointerException
+
+2016-06-12 16:47:07,843 - [ERROR] - from client.custom.sidebaritem.SidebarItem in JavaFX Application Thread
+                
+Failed to load contentFXML in :null due to java.lang.NullPointerException
+
+2016-06-12 16:51:46,578 - [ERROR] - from client.custom.sidebaritem.SidebarItem in JavaFX Application Thread
+                
+Failed to load contentFXML in :/fxml/ObjectData.fxml due to null
+
+2016-06-12 16:52:02,811 - [ERROR] - from client.custom.sidebaritem.SidebarItem in JavaFX Application Thread
+                
+Failed to load contentFXML in :/fxml/TrainingData.fxml due to null
+
+2016-06-12 16:58:50,354 - [ERROR] - from client.custom.sidebaritem.SidebarItem in JavaFX Application Thread
+                
+Failed to load FXML in : /fxml/TrainingSetup.fxml due to null
+
+2016-06-12 16:59:44,821 - [ERROR] - from client.custom.sidebaritem.SidebarItem in JavaFX Application Thread
+                
+Failed to load FXML in : /fxml/CnnConfig.fxml due to null
+
+2016-06-12 17:03:45,537 - [ERROR] - from client.custom.sidebaritem.SidebarItem in JavaFX Application Thread
+                
+Failed to load FXML in : /fxml/TrainingSetup.fxml due to null
+
+2016-06-12 17:03:51,517 - [ERROR] - from util.JavaFXUtils in JavaFX Application Thread
+                
+Failed to load fxml in :file:/home/gram/IdeaProjects/Deeplearning%20GUI/target/classes/fxml/ImageFetcher.fxml due to null
+
+2016-06-12 17:03:51,518 - [ERROR] - from client.custom.sidebaritem.SidebarItem in JavaFX Application Thread
+                
+Failed to load FXML in : /fxml/ImageFetcher.fxml due to java.lang.RuntimeException: javafx.fxml.LoadException: Controller value already specified.
+/home/gram/IdeaProjects/Deeplearning%20GUI/target/classes/fxml/ImageFetcher.fxml:9
+
+
+2016-06-12 17:05:34,437 - [ERROR] - from client.custom.sidebaritem.SidebarItem in JavaFX Application Thread
+                
+Failed to load FXML in : /fxml/ImageFetcher.fxml due to null
+
+2016-06-12 17:12:42,814 - [ERROR] - from client.custom.sidebaritem.SidebarItem in JavaFX Application Thread
+                
+Failed to load FXML in : /fxml/TrainingSetup.fxml due to java.lang.InstantiationException: client.tabs.TrainingSetupController
+
